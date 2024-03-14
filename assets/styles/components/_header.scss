@@ -24,6 +24,9 @@ header {
                 @include mixins.ff-fs-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 font-weight: 500;
             }
+            a:hover {
+                font-weight: 600;
+            }
         }
     }
     #home {
@@ -50,8 +53,11 @@ header {
                 border: none;
                 outline: none;
                 border-radius: 66px;
-                background: variaveis.$cor-secundaria;
+                background: variaveis.$cor-terciaria;
                 font-size: 1.3rem;
+            }
+            .btn-main:hover {
+                background: variaveis.$cor-secundaria;
             }
         }
         .img-home {
