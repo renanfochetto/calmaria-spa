@@ -7,6 +7,7 @@ body {
 header {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 2rem;
+  margin-bottom: 5rem;
 }
 header nav {
   display: flex;
@@ -21,6 +22,7 @@ header nav .linha {
 header nav ul {
   display: inline-flex;
   gap: 2rem;
+  margin-top: 0;
 }
 header nav ul li {
   list-style-type: none;
@@ -84,8 +86,9 @@ header #home .img-home img {
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
-  padding: 2rem 0;
+  padding: 0.8rem 0;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 #nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
   max-width: 500px;
@@ -111,6 +114,7 @@ header #home .img-home img {
 #servico {
   background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 5rem 0;
+  margin-bottom: 5rem;
 }
 #servico .cards {
   margin: 0 auto;
@@ -141,6 +145,7 @@ header #home .img-home img {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  margin-bottom: 10rem;
 }
 #desconto h4 {
   font-family: "Krona One", sans-serif;
@@ -185,6 +190,7 @@ header #home .img-home img {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  margin-bottom: 8rem;
 }
 #contatos .contatos-imgs {
   max-width: 50%;
@@ -257,6 +263,7 @@ footer {
   padding: 2rem;
   text-align: center;
   margin-top: 5rem;
+  font-weight: 600;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   color: #0c0421;
